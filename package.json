@@ -5,13 +5,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "update-module": "node ./test.js"
   },
   "devDependencies": {
     "@nuxt/ui": "^0.3.3",
     "@element-plus/icons-vue": "^2.0.10",
     "@element-plus/nuxt": "^1.0.3",
     "element-plus": "^2.2.30",
-    "nuxt": "^3.2.0"
+    "nuxt": "^3.2.0",
+    "tasksfile": "5.1.1"
   }
 }
